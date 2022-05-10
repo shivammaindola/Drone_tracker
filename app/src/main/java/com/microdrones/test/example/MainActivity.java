@@ -11,6 +11,7 @@ import com.microdrones.technical_test.MainFragment;
 public class MainActivity extends AppCompatActivity {
 
     MainFragment fragment;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

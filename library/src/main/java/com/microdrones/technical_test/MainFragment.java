@@ -100,8 +100,6 @@ public class MainFragment extends Fragment {
         else
             result="Fail";
 
-        int size=missionsModel.points.size();
-
         double capacity=configModel.energy.capacity*configModel.energy.numberOfBatteries;
 
         CardModelArrayList.add(
@@ -113,7 +111,7 @@ public class MainFragment extends Fragment {
                 ));
 
         //print result
-        System.out.println("checkMissions"+missionsModel.name+": ");
+        System.out.println("dsdsd"+missionsModel.name+": "+droneFlown+"\n");
     }
 
     public String inputStreamToString(InputStream inputStream) {

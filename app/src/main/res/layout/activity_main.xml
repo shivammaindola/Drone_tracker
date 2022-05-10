@@ -8,10 +8,10 @@
 
     <Button
         android:id="@+id/launchMission"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="?actionBarSize"
         android:text="Launch Mission"
-        android:background="#ec008c"
+        android:background="@android:color/holo_red_dark"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         android:paddingStart="8dp"

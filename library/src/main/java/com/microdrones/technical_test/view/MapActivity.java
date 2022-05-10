@@ -48,7 +48,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         }
         else{
                 Toast.makeText(this, "Mission UnSuccessful", Toast.LENGTH_LONG).show();
-
         }
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.active_map);
@@ -82,7 +81,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
         if(status.equals("Successful")) {
             mMap.addMarker(new MarkerOptions().position(locationArrayList.get(0)).title("Drone").icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_location_green)).snippet("Start Point"));
-            mMap.addMarker(new MarkerOptions().position(locationArrayList.get(locationArrayList.size()-1)).title("Drone").icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_location_red)).snippet("Drone Reached")).showInfoWindow();
+            mMap.addMarker(new MarkerOptions().position(locationArrayList.get(locationArrayList.size()-1)).title("Drone").icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_location_red)).snippet("Reached")).showInfoWindow();
         }
         else{
             mMap.addMarker(new MarkerOptions().position(locationArrayList.get(0)).title("Drone").icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_location_green)).snippet("Start Point"));
