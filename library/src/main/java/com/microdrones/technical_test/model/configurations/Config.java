@@ -3,6 +3,7 @@ package com.microdrones.technical_test.model.configurations;
 import com.google.gson.annotations.SerializedName;
 
 public class Config {
+
     @SerializedName("verticalSpeeds")
     public VerticalSpeeds verticalSpeeds;
     @SerializedName("energy")
