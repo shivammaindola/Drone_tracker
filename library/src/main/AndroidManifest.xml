@@ -12,7 +12,7 @@
 
     <application>
         <activity
-            android:name="com.microdrones.test.example.view.MapActivity"
+            android:name="com.microdrones.technical_test.view.MapActivity"
             android:exported="false" />
 
         <meta-data

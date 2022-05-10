@@ -54,9 +54,9 @@ public class MainFragment extends Fragment {
 
         Toast.makeText(context, "Tap on the card to see the drone path", Toast.LENGTH_LONG).show();
 
-
         // here we have created new array list and added data to it.
         CardModelArrayList = new ArrayList<>();
+
         for(int i=1;i<=6;i++)
         runMissions(i);
 
